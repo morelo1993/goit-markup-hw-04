@@ -12,94 +12,125 @@
         rel="stylesheet" />
 </head>
 <body>
-    <header class="header">
-     <nav class="header-navigation">
-        <a href="./index.html" class="logo"><span>WebStudio</span></a>
-
-        <ul class="header-menu-list">
-            <li class="list"><a class="header-post" href="./index.html">Estudio</a></li>
-            <li class="list"><a class="header-post current" href="./portafolio.html">Portafolio</a></li>
-            <li class="list"><a class="header-post" href="#">Contactos</a></li>
-        </ul>
-     </nav>
-     <ul>
-        <li class="list">
-            <a class="contactos" href="mailto:info@devstudio.com" class="header-email">info@devstudio.com</a>
-        </li>
-
-        <li class="list">
-            <a class="contactos" href="+525555296000" class="header-tel">+525555296000</a>
-        </li>
-     </ul>
+    <header>
+        <div class="container post-header">
+            <nav class="post-nav">
+                <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
+                <ul class="header-menu">
+                    <li class="list">
+                        <a class="header-post " href="./index.html">Estudio</a>
+                    </li>
+                    <li class="list">
+                        <a class="header-post current" href="./portafolio.html">Portafolio</a>
+                    </li>
+                    <li class="list"><a class="header-post" href="">Contactos</a></li>
+                </ul>
+                <ul class="contactos">
+                    <li class="list">
+                        <a class="correo" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                    </li>
+                    <li class="list">
+                        <a class="number" href="tel:+525555296000">+525555296000</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
     </header>
-     <main>
-        <section class="button">
+     <main class="container">
+        <section>
+        <div class="botones-1 container">
+            <button class="botones" type="button">Todo</button>
+            <button class="botones" type="button">Sitios-web</button>
+            <button class="botones" type="button">Aplicaciones</button>
+            <button class="botones" type="button">Diseño</button>
+            <button class="botones" type="button">Marketing</button>
+        </div>
+         
         
-         <button class="botones" type="button">Todo</button>
-         <button class="botones" type="button">Sitios-web</button>
-         <button class="botones" type="button">Aplicaciones</button>
-         <button class="botones" type="button">Diseño</button>
-         <button class="botones" type="button">Marketing</button>
-        
-        
-            <ul class="images">
-                <li class="list" class="images">
-                    <img src="img/imagen1.jpg" width="370" alt="perfiles"/>
+        <div class="container">
+            <ul class="col-imagen">
+                <li class="list-port list-port-2">
+                    <img src="img/imagen1.jpg" class="img-port" alt="perfiles" />
+                    <div class="content-port">
                     <h3 class="subtittle">Tecnoduck</h3>
                     <p class="paragraph">Sitio-web</p>
+                    </div>
                 </li>
-            <li class="list" class="images">
-                    <img src="img/imagen2.jpg" width="370" alt="juegos"/>
+                <li class="list-port">
+                    <img src="img/imagen2.jpg" class="img-port error-img" alt="juegos" />
+                    <div class="content-port">
                     <h3 class="subtittle">poster de Nueva Orleans vs Estrella Dorada</h3>
-            </li cl>
-            <li class="list" class="images">
-                <img src="img/imagen3.jpg" width="370" alt="comidas" />
-                <h3 class="subtittle">Restaurante Seafood</h3>
-                <p class="paragraph">Aplicaciones</p>
-            </li>
-            <li class="list" class="images">
-                <img src="img/imagen4.jpg" width="370" alt="prime" />
-                <h3 class="subtittle">Proyecto Prime</h3>
-                <p class="paragraph">Marketing</p>
-            </li>
-            <li class="list" class="images">
-                <img src="img/imagen5.jpg" width="370" alt="cajas" />
-                <h3 class="subtittle">Proyecto Cajas</h3>
-                <p class="paragraph">Aplicaciones</p>
-            </li>
-            <li class="list" class="images">
-                <img src="img/imagen6.jpg" width="370" alt="monitor" />
-                <h3 class="subtittle">La inspiracion no tiene limites</h3>
-                <p class="paragraph">Sitios-web</p>
-            </li>
-            <li class="list" class="images">
-                <img src="img/imagen7.jpg" width="370" alt="revista" />
-                <h3 class="subtittle">Edicion Limitada</h3>
-                <p class="paragraph">Diseño</p>
-            </li>
-            <li class="list" class="images">
-                <img src="img/imagen8.jpg" width="370" alt="etiqueta" />
-                <h3 class="subtittle">Proyecto LAB</h3>
-                <p class="paragraph">Marketing</p>
-            </li>
-            <li class="list" class="images">
-                <img src="img/imagen9.jpg" width="370" alt="negocio" />
-                <h3 class="subtittle">Negocio en Crecimiento</h3>
-                <p class="paragraph">Aplicaciones</p>
-            </li>
+                    <p class="paragraph"></p>
+                    </div>
+                </li>
+                <li class="list-port">
+                    <img src="img/imagen3.jpg" class="img-port" alt="comidas" />
+                    <div class="content-port">
+                    <h3 class="subtittle">Restaurante Seafood</h3>
+                    <p class="paragraph">Aplicaciones</p>
+                    </div>
+                </li>
+                <li class="list-port">
+                    <img src="img/imagen4.jpg" class="img-port" alt="prime" />
+                    <div class="content-port">
+                    <h3 class="subtittle">Proyecto Prime</h3>
+                    <p class="paragraph">Marketing</p>
+                    </div>
+                </li>
+                <li class="list-port">
+                    <img src="img/imagen5.jpg" class="img-port" alt="cajas" />
+                    <div class="content-port">
+                    <h3 class="subtittle">Proyecto Cajas</h3>
+                    <p class="paragraph">Aplicaciones</p>
+                    </div>
+                </li>
+                <li class="list-port">
+                    <img src="img/imagen6.jpg" class="img-port" alt="monitor" />
+                    <div class="content-port">
+                    <h3 class="subtittle">La inspiracion no tiene limites</h3>
+                    <p class="paragraph">Sitios-web</p>
+                    </div>
+                </li>
+                <li class="list-port">
+                    <img src="img/imagen7.jpg" class="img-port" alt="revista" />
+                    <div class="content-port">
+                    <h3 class="subtittle">Edicion Limitada</h3>
+                    <p class="paragraph">Diseño</p>
+                    </div>
+                </li>
+                <li class="list-port">
+                    <img src="img/imagen8.jpg" class="img-port" alt="etiqueta" />
+                    <div class="content-port">
+                    <h3 class="subtittle">Proyecto LAB</h3>
+                    <p class="paragraph">Marketing</p>
+                    </div>
+                </li>
+                <li class="list-port">
+                    <img src="img/imagen9.jpg" class="img-port" alt="negocio" />
+                    <div class="content-port">
+                    <h3 class="subtittle">Negocio en Crecimiento</h3>
+                    <p class="paragraph">Aplicaciones</p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+            
 
             </li>
         </section>
+        <footer class="container">
+            <div class="footer">
+                <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
+                <address class="direccion-footer">
+                    <ul class="ul-footer">
+                        <li class=""><a class="info-pie " target="_blank">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
+                        <li class=""><a class="info-pie " href="mailto:info@example.com">info@example.com</a></li>
+                        <li class=""><a class="info-pie " href="tel:+525555296000">+525555296000</a></li>
+                    </ul>
+                </address>
+            </div>
+        </footer>
     </main>
-    <footer class="fondo-h1">
-        <a class="logo">WebStudio</a>
-        <address>
-            <ul>
-                <li class="list"><a class="tex-pie" target="_blank">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
-                <li class="list"><a class="info-pie" href="mailto:info@example.com">info@example.com</a></li>
-                <li class="list"><a class="info-pie" href="tel:+525555296000">+525555296000</a></li>
-            </ul>
-        </address>
-    </footer>
+    
 </body>
 </html>

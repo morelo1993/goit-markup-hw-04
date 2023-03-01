@@ -16,40 +16,38 @@
   <body>
     <header>
         <div class="container post-header">
-      <nav class="post-nav">
-        <a href="#" class="logo">WebStudio</a>
-        <ul class="header-menu">
-          <li class="list">
-            <a class="header-post current" href="./index.html">Estudio</a>
-          </li>
-          <li class="list">
-            <a class="header-post" href="./portafolio.html">Portafolio</a>
-          </li>
-          <li class="list"><a class="header-post" href="">Contactos</a></li>
-        </ul>
-      </nav>
-      <ul class="contactos">
-        <li class="list">
-          <a class="contactos" href="mailto:info@devstudio.com"
-            >info@devstudio.com</a
-          >
-        </li>
-        <li class="list">
-          <a class="contactos" href="tel:+525555296000">+525555296000</a>
-        </li>
-      </ul>
-    </div>
+          <nav class="post-nav">
+            <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
+            <ul class="header-menu">
+              <li class="list">
+                <a class="header-post current" href="./index.html">Estudio</a>
+              </li>
+              <li class="list">
+                <a class="header-post" href="./portafolio.html">Portafolio</a>
+              </li>
+              <li class="list"><a class="header-post" href="">Contactos</a></li>
+            </ul>
+            <ul class="contactos">
+              <li class="list">
+                <a class="correo" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+              <li class="list">
+                <a class="number" href="tel:+525555296000">+525555296000</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
     </header>
     <main>
-      <section class="fondo-h1">
+      <section class="fondo-h1 container">
         <h1 class="test-h1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button class="button-h1 container" type="button">
+        <button class="button-h1" type="button">
           solicite nuestro servicio
         </button>
       </section>
 
       <section class="container">
-        <ul>
+        <ul class="services-ul">
           <li class="list">
             <h3 class="titulos">ATENCION A LOS DETALLES</h3>
             <p class="parrafo">
@@ -58,7 +56,7 @@
             </p>
           </li>
           <li class="list">
-            <h3 class="subtitulo1">PUNTUALIDAD</h3>
+            <h3 class="titulos">PUNTUALIDAD</h3>
             <p class="parrafo">
               Con nosotros, usted puedes sentirse seguro y protegido. Un
               pricipio importante de la empresa: respetar su tiempo y respetar
@@ -96,25 +94,25 @@
           </li>
         </ul>
       </section>
-      <section class="container">
+      <section class="container color-e">
         <h2 class="subtitulo">Nuestro Equipo</h2>
-        <ul>
-          <li class="list">
+        <ul class="images-index">
+          <li class="list-e">
             <img src="img/andres.jpg" width="270" alt="tutor" />
             <h3 class="name">Andrés Cubo</h3>
             <p class="p-h3">Diseñador de Productos</p>
           </li>
-          <li class="list">
+          <li class="list-e">
             <img src="img/carla.jpg" width="270" alt="tutora" />
             <h3 class="name">Carla Palacios</h3>
             <p class="p-h3">Desarrolladora Frontend</p>
           </li>
-          <li class="list">
+          <li class="list-e">
             <img src="img/mario.jpg" width="270" alt="tutor" />
             <h3 class="name">Mario Dorado</h3>
-            <p class="ph3-h3">Marketing</p>
+            <p class="p-h3">Marketing</p>
           </li>
-          <li class="list">
+          <li class="list-e">
             <img src="img/pablo.jpg" width="270" alt="tutor" />
             <h3 class="name">Pablo Mijangos</h3>
             <p class="p-h3">Diseñador IU</p>
@@ -122,25 +120,17 @@
         </ul>
       </section>
     </main>
-    <footer class="container fondo-h1">
-      <a class="logo">WebStudio</a>
-      <address>
-        <ul>
-          <li class="list">
-            <a class="tex-pie" target="_blank"
-              >Calz. Ticomán 500, Ciudad de México, CDMX, México</a
-            >
-          </li>
-          <li class="list">
-            <a class="info-pie" href="mailto:info@example.com"
-              >info@example.com</a
-            >
-          </li>
-          <li class="list">
-            <a class="info-pie" href="tel:+525555296000">+525555296000</a>
-          </li>
-        </ul>
-      </address>
+    <footer class="container">
+      <div class="footer">
+        <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
+        <address class="direccion-footer">
+          <ul class="ul-footer">
+            <li class=""><a class="info-pie " target="_blank">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
+            <li class=""><a class="info-pie " href="mailto:info@example.com">info@example.com</a></li>
+            <li class=""><a class="info-pie " href="tel:+525555296000">+525555296000</a></li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
