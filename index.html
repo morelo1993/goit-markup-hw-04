@@ -8,35 +8,33 @@
     <link rel="stylesheet" href="css/styless.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wghth@700&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet" />
   </head>
   <body>
-    <header>
-        <div class="container post-header">
-          <nav class="post-nav">
-            <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
-            <ul class="header-menu">
-              <li class="list">
-                <a class="header-post current" href="./index.html">Estudio</a>
-              </li>
-              <li class="list">
-                <a class="header-post" href="./portafolio.html">Portafolio</a>
-              </li>
-              <li class="list"><a class="header-post" href="">Contactos</a></li>
-            </ul>
-            <ul class="contactos">
-              <li class="list">
-                <a class="correo" href="mailto:info@devstudio.com">info@devstudio.com</a>
-              </li>
-              <li class="list">
-                <a class="number" href="tel:+525555296000">+525555296000</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
+    <header class="container">
+      <div class="post-header">
+        <nav class="post-nav">
+          <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
+          <ul class="header-menu">
+            <li class="list">
+              <a class="header-post current" href="./index.html">Estudio</a>
+            </li>
+            <li class="list">
+              <a class="header-post " href="./portafolio.html">Portafolio</a>
+            </li>
+            <li class="list"><a class="header-post" href="">Contactos</a></li>
+          </ul>
+          <ul class="contact">
+            <li class="list">
+              <a class="correo" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            </li>
+            <li class="list">
+              <a class="number" href="tel:+525555296000">+525555296000</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
     <main>
       <section class="fondo-h1 container">
@@ -81,43 +79,48 @@
       </section>
 
       <section class="container">
-        <h2 class="subtitulo">A qué nos dedicamos</h2>
-        <ul>
-          <li class="list">
-            <img src="img/photo1.jpg" width="373" alt="programando" />
-          </li>
-          <li class="list">
-            <img src="img/photo2.jpg" width="373" alt="conectando" />
-          </li>
-          <li class="list">
-            <img src="img/photo3.jpg" width="373" alt="viendo resultados" />
-          </li>
-        </ul>
+        <div class="about">
+          <h2 class="subtitulo">A qué nos dedicamos</h2>
+          <ul class="son-list">
+            <li class="list-about">
+              <img src="img/photo1.jpg" width="373" alt="programando" />
+            </li>
+            <li class="list-about">
+              <img src="img/photo2.jpg" width="373" alt="conectando" />
+            </li>
+            <li class="list-about">
+              <img src="img/photo3.jpg" width="373" alt="viendo resultados" />
+            </li>
+          </ul>
+        </div>
       </section>
-      <section class="container color-e">
-        <h2 class="subtitulo">Nuestro Equipo</h2>
-        <ul class="images-index">
-          <li class="list-e">
-            <img src="img/andres.jpg" width="270" alt="tutor" />
-            <h3 class="name">Andrés Cubo</h3>
-            <p class="p-h3">Diseñador de Productos</p>
-          </li>
-          <li class="list-e">
-            <img src="img/carla.jpg" width="270" alt="tutora" />
-            <h3 class="name">Carla Palacios</h3>
-            <p class="p-h3">Desarrolladora Frontend</p>
-          </li>
-          <li class="list-e">
-            <img src="img/mario.jpg" width="270" alt="tutor" />
-            <h3 class="name">Mario Dorado</h3>
-            <p class="p-h3">Marketing</p>
-          </li>
-          <li class="list-e">
-            <img src="img/pablo.jpg" width="270" alt="tutor" />
-            <h3 class="name">Pablo Mijangos</h3>
-            <p class="p-h3">Diseñador IU</p>
-          </li>
-        </ul>
+
+      <section class="container">
+        <div class="color-e">
+          <h2 class="subtitulo">Nuestro Equipo</h2>
+          <ul class="images-index">
+            <li class="list-e">
+              <img src="img/andres.jpg" width="270" alt="tutor" />
+              <h3 class="name">Andrés Cubo</h3>
+              <p class="p-h3">Diseñador de Productos</p>
+            </li>
+            <li class="list-e">
+              <img src="img/carla.jpg" width="270" alt="tutora" />
+              <h3 class="name">Carla Palacios</h3>
+              <p class="p-h3">Desarrolladora Frontend</p>
+            </li>
+            <li class="list-e">
+              <img src="img/mario.jpg" width="270" alt="tutor" />
+              <h3 class="name">Mario Dorado</h3>
+              <p class="p-h3">Marketing</p>
+            </li>
+            <li class="list-e">
+              <img src="img/pablo.jpg" width="270" alt="tutor" />
+              <h3 class="name">Pablo Mijangos</h3>
+              <p class="p-h3">Diseñador IU</p>
+            </li>
+          </ul>
+        </div>
       </section>
     </main>
     <footer class="container">
