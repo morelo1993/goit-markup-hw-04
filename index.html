@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>WebStudio</title>
     <link rel="stylesheet" href="css/styless.css" />
+    <link rel="stylesheet" href="css/normalize.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
@@ -15,7 +16,7 @@
     <header class="container">
       <div class="post-header">
         <nav class="post-nav">
-          <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
+          <a href="#" class="logo"><span class="span-logo"></span></a>
           <ul class="header-menu">
             <li class="list">
               <a class="header-post current" href="./index.html">Estudio</a>
@@ -27,48 +28,55 @@
           </ul>
           <ul class="contact">
             <li class="list">
-              <a class="correo" href="mailto:info@devstudio.com">info@devstudio.com</a>
+              <a class="correo" href="mailto:info@devstudio.com"><span class="ico-correo"></span> info@devstudio.com</a>
             </li>
             <li class="list">
-              <a class="number" href="tel:+525555296000">+525555296000</a>
+              <a class="number" href="tel:+525555296000"><span class="ico-cel"></span>+525555296000</a>
             </li>
           </ul>
         </nav>
       </div>
     </header>
-    <main>
-      <section class="fondo-h1 container">
-        <h1 class="test-h1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
-        <button class="button-h1" type="button">
-          solicite nuestro servicio
-        </button>
-      </section>
 
+    <section class="fondo-h1">
+      <h1 class="test-h1">SOLUCIONES EFICACES PARA SU NEGOCIO</h1>
+      <button class="button-h1" type="button">
+        solicite nuestro servicio
+      </button>
+    </section>
+
+    <main>
       <section class="container">
         <ul class="services-ul">
-          <li class="list">
+          <li class="list-icons">
+            <span class="color-icons"><i class="ico-antena"></i></span>
             <h3 class="titulos">ATENCION A LOS DETALLES</h3>
             <p class="parrafo">
               nos adentramos en todos los detalles y procesos de su negocio,
               para asi desarrollar una solucion a su medida
             </p>
           </li>
-          <li class="list">
-            <h3 class="titulos">PUNTUALIDAD</h3>
-            <p class="parrafo">
-              Con nosotros, usted puedes sentirse seguro y protegido. Un
-              pricipio importante de la empresa: respetar su tiempo y respetar
-              los plazos acordados.
-            </p>
+          <li class="list-icons">
+            <div class="icons">
+              <span class="color-icons"><i class="ico-reloj"></i></span>
+              <h3 class="titulos">PUNTUALIDAD</h3>
+              <p class="parrafo">
+                Con nosotros, usted puedes sentirse seguro y protegido. Un
+                pricipio importante de la empresa: respetar su tiempo y respetar
+                los plazos acordados.
+              </p>
+            </div>
           </li>
-          <li class="list">
+          <li class="list-icons">
+            <span class="color-icons"><i class="ico-pc"></i></span>
             <h3 class="titulos">PLANIFICACION</h3>
             <p class="parrafo">
               Usted podrá observar y participar en cada fase del desarrollo y
               aplicación de soluciones.
             </p>
           </li>
-          <li class="list">
+          <li class="list-icons">
+            <span class="color-icons"><i class="ico-astronauta"></i></span>
             <h3 class="titulos">TEGNOLOGÍA MODERNA</h3>
             <p class="parrafo">
               Usamos herramientas innovadoras para resolver las tareas
@@ -83,13 +91,18 @@
           <h2 class="subtitulo">A qué nos dedicamos</h2>
           <ul class="son-list">
             <li class="list-about">
-              <img src="img/photo1.jpg" width="373" alt="programando" />
+              <figure>
+                <img src="images/photo1.jpg" width="373" alt="programando" />
+                <figcaption>APLICACIONES DE ESCRITORIO</figcaption>
+              </figure>
+                
+              
             </li>
             <li class="list-about">
-              <img src="img/photo2.jpg" width="373" alt="conectando" />
+              <img src="images/photo2.jpg" width="373" alt="conectando" />
             </li>
             <li class="list-about">
-              <img src="img/photo3.jpg" width="373" alt="viendo resultados" />
+              <img src="images/photo3.jpg" width="373" alt="viendo resultados" />
             </li>
           </ul>
         </div>
@@ -100,22 +113,22 @@
           <h2 class="subtitulo">Nuestro Equipo</h2>
           <ul class="images-index">
             <li class="list-e">
-              <img src="img/andres.jpg" width="270" alt="tutor" />
+              <img src="images/andres.jpg" width="270" alt="tutor" />
               <h3 class="name">Andrés Cubo</h3>
               <p class="p-h3">Diseñador de Productos</p>
             </li>
             <li class="list-e">
-              <img src="img/carla.jpg" width="270" alt="tutora" />
+              <img src="images/carla.jpg" width="270" alt="tutora" />
               <h3 class="name">Carla Palacios</h3>
               <p class="p-h3">Desarrolladora Frontend</p>
             </li>
             <li class="list-e">
-              <img src="img/mario.jpg" width="270" alt="tutor" />
+              <img src="images/mario.jpg" width="270" alt="tutor" />
               <h3 class="name">Mario Dorado</h3>
               <p class="p-h3">Marketing</p>
             </li>
             <li class="list-e">
-              <img src="img/pablo.jpg" width="270" alt="tutor" />
+              <img src="images/pablo.jpg" width="270" alt="tutor" />
               <h3 class="name">Pablo Mijangos</h3>
               <p class="p-h3">Diseñador IU</p>
             </li>
