@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device, initial-scale=1.0" />
     <title>portafolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.css">
     <link rel="stylesheet" href="css/styless.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -17,23 +18,23 @@
             <nav class="post-nav">
                 <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
                 <ul class="header-menu">
-                    <li class="list">
-                        <a class="header-post " href="./index.html">Estudio</a>
+                    <li>
+                        <a class="header-post" href="./index.html">Estudio</a>
                     </li>
-                    <li class="list">
+                    <li>
                         <a class="header-post current" href="./portafolio.html">Portafolio</a>
                     </li>
-                    <li class="list"><a class="header-post" href="">Contactos</a></li>
-                </ul>
-                <ul class="contact">
-                    <li class="list">
-                        <a class="correo" href="mailto:info@devstudio.com">info@devstudio.com</a>
-                    </li>
-                    <li class="list">
-                        <a class="number" href="tel:+525555296000">+525555296000</a>
-                    </li>
+                    <li><a class="header-post" href="">Contactos</a></li>
                 </ul>
             </nav>
+            <ul class="contact">
+                <li class="">
+                    <a class="correo-nav" href="mailto:info@devstudio.com"><img src="img/sobre.svg" alt="correo" style="margin-right: 10px;color: #757575;"> info@devstudio.com</a>
+                </li>
+                <li class="">
+                    <a class="number" href="tel:+525555296000"><img src="img/ico-cel-2.svg" alt="correo"></a>
+                </li>
+            </ul>
         </div>
     </header>
      <main class="container">
@@ -41,7 +42,7 @@
         <div class="botones-1 container">
             <ul class="botones-list">
                 <li>
-                    <button class="botones" type="button">Todo</button>
+                    <button class="botones btn-1" type="button">Todo</button>
                     <button class="botones" type="button">Sitios-web</button>
                     <button class="botones" type="button">Aplicaciones</button>
                     <button class="botones" type="button">Diseño</button>
@@ -49,11 +50,10 @@
                 </li>
             </ul>
         </div>
-         
         
         <div class="container">
             <ul class="col-imagen">
-                <li class="list-port list-port-2">
+                <li class="list-port">
                     <img src="img/imagen1.jpg" class="img-port" alt="perfiles" />
                     <div class="content-port">
                     <h3 class="subtittle">Tecnoduck</h3>
@@ -118,23 +118,45 @@
                 </li>
             </ul>
         </div>
-            
-
-            </li>
         </section>
-        <footer class="container">
-            <div class="footer">
-                <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
-                <address class="direccion-footer">
-                    <ul class="ul-footer">
-                        <li class=""><a class="info-pie " target="_blank">Calz. Ticomán 500, Ciudad de México, CDMX, México</a></li>
-                        <li class=""><a class="info-pie " href="mailto:info@example.com">info@example.com</a></li>
-                        <li class=""><a class="info-pie " href="tel:+525555296000">+525555296000</a></li>
-                    </ul>
-                </address>
-            </div>
-        </footer>
     </main>
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="left-f">
+                    <a href="#" class="logo"><span class="span-logo">WebStudio</span></a>
+                    <address class="direccion-footer">
+                        <ul class="ul-footer">
+                            <p class="info-pie">Calz. Ticomán 500, Ciudad de México, CDMX, México</p>
+                            <p class="info-pie-f">info@example.com</p><br>
+                            <p class="info-pie-f">+52 55 5529 6000</p>
+                        </ul>
+                    </address>
+                </div>
+                <div class="center-f">
+                    <p class="p-f">ENCUENTRENOS EN</p>
+                    <br>
+                    <span class="redes-f">
+                        <a href="#">
+                            <img src="img/ico-insta.svg" alt="instagram">
+                        </a>
+                        <a href="#">
+                            <img src="img/ico-twitter-f.svg" alt="twitter">
+                        </a>
+                        <a href="#">
+                            <img src="img/ico-fb-f.svg" alt="facebook">
+                        </a>
+                        <a href="#">
+                            <img src="img/ico-link-f.svg" alt="linkedin">
+                        </a>
+                    </span>
+                </div>
+                <div class="right-f">
     
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"></script>
 </body>
 </html>
