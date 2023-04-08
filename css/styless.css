@@ -525,6 +525,7 @@ color: var(--one-color-);
 /*FOOTER*/
 .footer {
     background: #2F303A;
+    display: flex;
 }
 
 .footer > div{
