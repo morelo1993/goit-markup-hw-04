@@ -1,7 +1,7 @@
 * {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
@@ -21,6 +21,10 @@ body {
     color: var(--secundary-color);
     background-color: var(#ffffff);
     letter-spacing: 0.03em;
+}
+
+svg {
+    fill: currentColor;
 }
 
 ul{
@@ -119,19 +123,19 @@ address {
 }
 
 .header-post {
-  text-decoration: none;
-  color: var(--secundary-color);
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  letter-spacing: 0.02em;
-  gap: 50px;
+    text-decoration: none;
+    color: var(--secundary-color);
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    letter-spacing: 0.02em;
+    gap: 50px;
 }
 .header-post:hover,
 .header-post:focus {
-  color: var(--one-color-);
+    color: var(--one-color-);
 }
 .current{
 color: var(--one-color-);
@@ -150,71 +154,68 @@ color: var(--one-color-);
     gap: 50px;
 }
 
-.correo{
+.ico-nav{
+    color: #757575;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ico-nav > svg{
+    margin-right: 10px;
+}
+
+.ico-nav:hover{
     color: #2196F3;
     display: flex;
-}
-.number{
-  height: 16px;
-    width: 118px;
-    left: 1263px;
-    top: 32px;
-    text-decoration: none;
-
-      font-size: 14px;
-      font-weight: 500;
-      line-height: 16px;
-      letter-spacing: 0.02em;
-      text-align: left;
-      color: #757575;
 }
 
 .contactos:hover,
 .contactos:focus {
-  color: var(--one-color-);
+    color: var(--one-color-);
 }
 
 
 /*titulo*/
 .test-h1 {
-  color: var(--tree-color);
-  font-style: normal;
-  font-weight: 900;
-  font-size: 36px;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-  width: 696px;
-  height: 120px;
-  margin-bottom: 30px;
-  align-content: center;
+    color: var(--tree-color);
+    font-style: normal;
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    width: 696px;
+    height: 120px;
+    margin-bottom: 30px;
+    align-content: center;
 }
 .fondo-h1 {
-  color: var(--color-fondo);
-  background-image: url(../img/img-section.png);
-  height: 600px;
-  font-weight: 900px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 10px 32px;
+    color: var(--color-fondo);
+    background-image: linear-gradient(#2F303A66, #2F303A66),url(../img/img-section.png);
+    height: 600px;
+    font-weight: 900;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 32px;
 }
 .button-h1 {
-  color: var(--tree-color);
-  background-color: var(--one-color-); 
-  font-style: normal;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 1.5;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  letter-spacing: 0.06em;
-  cursor: pointer; 
-  border: none; 
-  background: #2196F3;
+    color: var(--tree-color);
+    background-color: var(--one-color-); 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    cursor: pointer; 
+    border: none; 
+    background: #2196F3;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     display: flex;
@@ -223,22 +224,22 @@ color: var(--one-color-);
     padding: 10px 32px;
 }
 .botones-1{
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-  margin-top: 50px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    margin-top: 50px;
 }
 
 .botones{
-  margin-left: 10px;
+    margin-left: 10px;
 }
 
 .subtitulo1 {
-  color: var(--color-sub1 --four-color);
-  font-style: normal;
-  font-weight: 700;
-  line-height: 16px;
-  text-transform: uppercase;
+    color: var(--color-sub1 --four-color);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 16px;
+    text-transform: uppercase;
 }
 
 
@@ -292,6 +293,24 @@ color: var(--one-color-);
 .iconos-equipo{
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.iconos-items{
+    width: 44px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #AFB1B8;
+    border-radius: 50%;
+}
+
+.iconos-items:hover {
+    color: var(--colorPortafolio);
+    cursor: pointer;
+    background-color: var(--one-color-);
+    border-radius: 50%;
 }
 
 /*FIN SECCION NUESTRO EQUIPO*/
@@ -312,6 +331,12 @@ color: var(--one-color-);
     display: flex;
     justify-content: center;
     align-items: center;
+    color: #AFB1B8;
+}
+
+.list-cr:hover{
+    border: 1px solid #2196F3;
+    color: #2196F3;   
 }
 
 .list-cr img{
@@ -331,39 +356,39 @@ color: var(--one-color-);
 /*pg*/
 
 .botones {
-  color: var(--secundary-color);
-  font-style: normal;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  border: none;
-  padding: 6px 24px;
-  border-radius: 5px;
+    color: var(--secundary-color);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    border: none;
+    padding: 6px 24px;
+    border-radius: 5px;
 }
 .botones:hover {
-  color: var(--tree-color);
-  background-color: var(--one-color-);
-  cursor: pointer;
+    color: var(--tree-color);
+    background-color: var(--one-color-);
+    cursor: pointer;
 }
 .botones:focus {
-  color: var(--tree-color);
-  background-color: var(--one-color-);
+    color: var(--tree-color);
+    background-color: var(--one-color-);
 }
 
 .subtittle {
-  color: var(--secundary-color);
-  font-style: normal;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
+    color: var(--secundary-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 36px;
 }
 
 .paragraph {
-  color: var(--four-color);
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.5;
+    color: var(--four-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .titulos{
@@ -387,13 +412,13 @@ color: var(--one-color-);
 
 .iconos{
     height: 120px;
-        width: 270px;
-        border-radius: 4px;
-        background: #F5F4FA;
-        margin-bottom: 20px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    width: 270px;
+    border-radius: 4px;
+    background: #F5F4FA;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .iconos-in{
@@ -401,6 +426,17 @@ color: var(--one-color-);
     width: 65.31558227539062px;
     border-radius: 0px;
 }
+
+.iconos-re {
+    width: 106px;
+    height: 60px;
+}
+/* 
+.iconos-re:hover {
+    width: 106px;
+    height: 60px;
+    border-radius: 0px;
+} */
 
 .parrafo {
     font-size: 14px;
@@ -503,11 +539,17 @@ color: var(--one-color-);
     bottom: 0;
     left: 0;
     width: 100%;
-    padding: 10px;
     color: #fff;
     background-color: rgba(0, 0, 0, 0.5);
-    font-size: 18px;
+    font-size: 14px;
+    font-family: Roboto;
+    font-weight: 700;
     text-align: center;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 16.41px;
 }
 
 .son-list{
@@ -525,6 +567,7 @@ color: var(--one-color-);
 /*FOOTER*/
 .footer {
     background: #2F303A;
+    display: flex;
 }
 
 .footer > div{
@@ -567,15 +610,27 @@ color: var(--one-color-);
 }
 
 .redes-f{
-    width: 206px;
-    height: 44px;
+    width: 204px;
+    height: 48px;
     display: flex;
     justify-content: space-between;
+    background-color: transparent;
 }
 
-.redes-f img {
+.iconos-ft{
     width: 44px;
     height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    background: #FFFFFF1A;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.iconos-ft:hover{
+    background-color: #2196F3;
 }
 
 .p-f{
